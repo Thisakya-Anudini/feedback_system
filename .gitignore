@@ -1,0 +1,14 @@
+# Ignore configuration files
+db_connections.php
+.env
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore vendor directory (if you are using Composer)
+/vendor/
+
+# Ignore IDE files
+.idea/
+.vscode/
