@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Feedback Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('image.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 630px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: #C9F4F1;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 400px;
+            margin-bottom: 20px;
+			
+        }
+
+        h1 {
+            color:#2865EE;
+			font-size: 24px;
+			color: #044BEA;
+        }
+
+        h2 {
+            color: #050D20;
+			font-size: 30px;
+        }
+
+        p {
+            margin-bottom: 40px;
+            color: #656669;
+			margin-top: 60px;
+        }
+
+        .role-selection {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+			
+        }
+		
+        .role-selection a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 30px;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 0px 40px;
+            font-size: 18px;
+        }
+
+        .role-selection a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="University Logo" class="logo">
+        <h1>FACULTY OF ENGINEERING - UNIVERSITY OF JAFFNA</h1>
+        <h2>FEEDBACK SYSTEM</h2>
+        <p>Please Select Your Role </p>
+        <div class="role-selection">
+            <a href="admin_login.php">Admin</a>
+            <a href="student_login.php">Student</a>
+			<a href="teacher_login.php">Teacher</a>
+        </div>
+    </div>
+</body>
+</html>
+
