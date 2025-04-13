@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **Feedback Management System** is a web-based application designed to collect, manage, and analyze feedback from users, teachers, and administrators. The system helps institutions gather real-time feedback on courses and faculty performance, thereby enabling data-driven improvements and better decision-making.
+The **Feedback Management System** is a web-based application designed to collect, manage and analyze feedback from users, teachers, and administrators. The system helps institutions gather real-time feedback on courses and faculty performance, thereby enabling data-driven improvements and better decision-making.
 
 ## Features
 
